@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>网上商城会员注册页面</title>
+		<link type="text/css" rel="stylesheet" href="../../static/css/style.css">
+		<link href="static/css/bootstrap.min.css" rel="stylesheet" />
+		<script type="text/javascript" src="../../static/js/jquery-1.11.3.min.js"></script>
+		
+		<script type="text/javascript" src="../js/regist.js"></script>
+
+		<script src="../../static/js/bootstrap.js"></script>
+		<style type="text/css">
+			.login_form {
+				height: 420px;
+				margin-top: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="login_header">
+			<img class="logo_img" alt="" src="../../static/img/logo.gif">
+		</div>
+
+		<div class="login_banner">
+
+			<div id="l_content">
+				<span class="login_word">欢迎注册</span>
+			</div>
+
+			<div id="content">
+				<div class="login_form">
+					<div class="login_box">
+						<div class="tit">
+							<h1>注册网上商城会员</h1>
+							<span class="errorMsg"></span>
+						</div>
+						<div class="form">
+							<form action="/shop/register.do" method="get" name="regForm" onsubmit="return checkReg()">
+								<label>用户名称：</label>
+								<input onblur="checkUsername()" class="itxt" type="text" placeholder="请输入用户名"
+									autocomplete="off" tabindex="1" name="username" id="username" />
+								<div>
+									<font id="usernameTip" color="red">&nbsp;</font>
+								</div>
+
+								<label>用户密码：</label>
+								<input onblur="checkPassword()" class="itxt" type="password" placeholder="请输入密码" autocomplete="off" tabindex="1"
+									name="password" id="password" />
+								<div>
+									<font id="passwordTip" color="red">&nbsp;</font>
+								</div>
+								
+								<label>确认密码：</label>
+								<input onblur="reCheckPassword()" class="itxt" type="password" placeholder="确认密码" autocomplete="off" tabindex="1"
+									name="repwd" id="repwd" />
+								<div>
+									<font id="repwdTip" color="red">&nbsp;</font>
+								</div>
+								
+								<label>电子邮件：</label>
+								<input onblur="checkEmail()" class="itxt" type="text" placeholder="请输入邮箱地址" autocomplete="off" tabindex="1"
+									name="email" id="email" />
+								<div>
+									<font id="emailTip" color="red">&nbsp;</font>
+								</div>
+								
+								<label>验证码：</label>
+								<input onblur="checkCode()" class="itxt" type="text" style="width: 150px;" id="code" />
+								<img alt="" src="../../static/img/code.bmp" style="float: right; margin-right: 40px">
+								<div>
+									<font id="codeTip" color="red">&nbsp;</font>
+								</div>
+								
+								<input type="submit" value="注册" id="sub_btn" />
+
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottom">
+			<span>
+				网上商城.Copyright &copy;2020
+			</span>
+		</div>
+	</body>
+</html>

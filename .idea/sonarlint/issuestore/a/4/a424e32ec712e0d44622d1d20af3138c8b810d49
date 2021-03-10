@@ -1,0 +1,27 @@
+
+e
+java:S1989"LHandle the following exception that could be thrown by "close": IOException.(¶ò†Áşÿÿÿÿ
+`
+java:S1989"LHandle the following exception that could be thrown by "flush": IOException.(‚çÿş
+f
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(‰Äëùÿÿÿÿ
+S
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(â®ÒZ8›òİ…/
+`
+java:S1989"LHandle the following exception that could be thrown by "write": IOException.(ŠÀ‘’
+y
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(³æ£õùÿÿÿÿ
+`
+java:S1989"LHandle the following exception that could be thrown by "close": IOException.(¢ÔïÌ
+z
+java:S1989"`Handle the following exception that could be thrown by "getBytes": UnsupportedEncodingException.(â®ÒZ8›òİ…/
+d
+java:S1989"KHandle the following exception that could be thrown by "read": IOException.(ÆÜòºùÿÿÿÿ
+X
+java:S4719">Replace charset name argument with StandardCharsets.ISO_8859_1(â®ÒZ8›òİ…/
+U
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(×Ò¾ù
+o
+java:S1989"VHandle the following exception that could be thrown by "getOutputStream": IOException.(£­ÛÙıÿÿÿÿ
+S
+java:S1854":Remove this useless assignment to local variable "length".(ÆÜòºùÿÿÿÿ
